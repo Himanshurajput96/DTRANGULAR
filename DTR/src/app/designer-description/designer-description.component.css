@@ -1,0 +1,10 @@
+.newlines-break {
+    white-space: pre-wrap;
+}
+
+.bio {
+    font-style: italic;
+    line-height: 1.428;
+    color: grey;
+
+}

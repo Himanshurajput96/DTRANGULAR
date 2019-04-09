@@ -1,0 +1,53 @@
+.navbar-default {
+
+    background-color: black ;
+}
+
+a {
+  color: grey
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: white;
+    color: red;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+
+
+ /* .navbar-default .navbar-nav > li > a:visited {
+    color: white;
+} */
+
+.navbar-default .navbar-nav > li > a:focus-within {
+    color: red;
+}
+
+.dropdown:hover .dropdown-menu {
+   display: block;
+ }
+
+ .newlines-break {
+    white-space: pre-wrap;
+}
+
+ .bio {
+    font-style: italic;
+    line-height: 1.428;
+    color: grey;
+
+}
+
+.navbar .nav>li>a{float:none;padding:10px 15px 10px;color: #777777;text-decoration:none; text-shadow:none;
+}

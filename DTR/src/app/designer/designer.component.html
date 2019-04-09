@@ -1,0 +1,37 @@
+<div >
+<div class="row" >
+  <h3><p style="color:red;margin-left: 2em;">DESIGNERS</p></h3>
+  <!-- <div data-ng-show="details.length > 0" align="right" style="padding-right: 6em;">
+      <div class="col-span-12">
+        <uib-pagination ng-model="currentPage" total-items="details.length" max-size="maxSize" items-per-page="numPerPage" boundary-links="true"></uib-pagination>
+      </div>
+    </div> -->
+  <!-- </div> -->
+
+</div>
+<div  style="margin-left: 5em;margin-right: 5em;"  >
+
+    <div  *ngFor="let detail of details" class="col-sm-3" >
+
+    <a routerLink="/detail/{{detail.id}}" [state]="{detail : detail}"><img src="https://dev.datetheramp.com/static/catalog/160/{{detail.image_url}}" height="400" width="300" style="padding-top:30px; padding-left:30px; padding-right:60px; padding-bottom:30px; margin-right: 5em;">
+<p style=" margin-left: 6.5em;">{{detail.name}}</p></a>
+
+
+  <br><br></div>
+</div>
+
+  <!-- <div data-pagination="" data-num-pages="numOfPages()"
+    data-current-page="curPage" data-max-size="maxSize"
+    data-boundary-links="true"></div> -->
+
+    <!-- <div data-pagination="" data-num-pages="numOfPages()"
+      data-current-page="curPage" data-max-size="maxSize"
+      data-boundary-links="true" ></div> -->
+
+      <!-- <div data-ng-show="details.length > 0" align="right" >
+          <div class="col-span-12">
+            <uib-pagination ng-model="currentPage" total-items="details.length" max-size="maxSize" items-per-page="numPerPage" boundary-links="true"></uib-pagination>
+          </div>
+        </div>
+      </div>
+ -->
